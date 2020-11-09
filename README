@@ -1,0 +1,7 @@
+Examples of fast and accurate sine caluclations. Both x86_64 and aarch64 version.
+Install before run:
+sudo apt install build-essential cmake libboost-all-dev libmpfr-dev
+
+Compile and run:
+1) Go to source folder
+2) mkdir -p ./build && cd ./build && cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo && make && ./fast_sine
